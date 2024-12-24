@@ -1,0 +1,55 @@
+/* Impostazioni di base per il body */
+body {
+	
+    background-image: url(natale.jpg); /* Imposta l'immagine di sfondo */
+    background-size: cover;  /* L'immagine coprirà tutta la finestra */
+    background-position: center center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    height: 100vh;  /* Imposta l'altezza al 100% della finestra */
+    margin: 0;  /* Rimuove i margini di default */
+
+
+	margin: 0;
+	height: 100vh; /* Imposta l'altezza della pagina uguale alla viewport */
+	display: flex; /* Usa il flexbox per il layout */
+	justify-content: center; /* Centra orizzontalmente il contenuto */
+	align-items: center; /* Centra verticalmente il contenuto */
+	font-family: Arial, sans-serif; /* Imposta un font di base */
+	background-color: #f0f0f0; /* Colore di sfondo della pagina */
+	
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* Impostazioni per il tag h1 */
+h1.MENU {
+  margin: 0; /* Rimuove il margine predefinito */
+  text-align: center; /* Centra il contenuto del titolo */
+  font-size: 100px;
+  font-weight: bold;
+  color: black;
+}
+
+h1.LUOGO {
+  margin: 0; /* Rimuove il margine predefinito */
+  text-align: center; /* Centra il contenuto del titolo */
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+}
+
+
+/* Impostazioni per il link MENU' */
+a {
+  font-size: 100px; /* Imposta la dimensione del font per ingrandire la parola */
+  font-weight: bold; /* Rende la parola in grassetto */
+  color: black; /* Colore del testo */
+  text-decoration: none; /* Rimuove la sottolineatura dal link */
+}

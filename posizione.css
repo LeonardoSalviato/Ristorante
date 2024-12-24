@@ -1,0 +1,54 @@
+/* Impostazioni generali per il corpo della pagina */
+body {
+    background-image: url(natale.jpg); /* Imposta l'immagine di sfondo */
+    background-size: cover;  /* L'immagine coprirà tutta la finestra */
+    background-position: center center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    height: 100vh;  /* Imposta l'altezza al 100% della finestra */
+    margin: 0;  /* Rimuove i margini di default */
+    padding: 0; /* Rimuove i padding di default */
+    font-family: Arial, sans-serif; /* Font per tutto il corpo */
+    display: flex; /* Usa flexbox per centrare il contenuto */
+    flex-direction: column; /* Organizza gli elementi in colonna */
+    justify-content: center; /* Centra verticalmente gli elementi */
+    align-items: center; /* Centra orizzontalmente gli elementi */
+}
+
+/* Contenitore del contenuto */
+.container {
+    text-align: center; /* Allinea il testo al centro */
+    padding: 20px;
+    border: 2px solid #333; /* Aggiunge un bordo attorno al contenuto */
+    border-radius: 10px; /* Rende gli angoli arrotondati */
+    background-color: #fff; /* Sfondo bianco per il contenitore */
+}
+
+/* Stile per il titolo */
+h1 {
+    font-size: 3em; /* Imposta una dimensione grande per il titolo */
+    color: black; /* Colore scuro per il titolo */
+    margin-top: 0px; /* Distanza tra il titolo e il bordo superiore */
+    margin-bottom: 30px; /* Distanza tra il titolo e la lista */
+}
+
+/* Stile per la lista */
+ul {
+    /* Rimuove i punti dalla lista */
+    padding: 0;
+    text-align: center-left; /* Centra gli elementi della lista */
+}
+
+/* Stile per ogni elemento della lista */
+ul li {
+    margin: 10px 0; /* Distanza tra gli elementi della lista */
+}
+
+/* Stile per i link */
+ul li a {
+    font-size: 1.5em; /* Dimensione del testo per i link */
+    color: black; /* Colore del testo per i link */
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+
+

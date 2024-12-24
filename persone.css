@@ -1,0 +1,53 @@
+/* Impostazioni generali per il corpo della pagina */
+body {
+    background-image: url(natale.jpg); /* Imposta l'immagine di sfondo */
+    background-size: cover;  /* L'immagine coprirà tutta la finestra */
+    background-position: center center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    height: 100vh;  /* Imposta l'altezza al 100% della finestra */
+    margin: 0;  /* Rimuove i margini di default */
+    padding: 0; /* Rimuove i padding di default */
+    font-family: Arial, sans-serif; /* Font per tutto il corpo */
+    display: flex; /* Usa flexbox per centrare il contenuto */
+    flex-direction: column; /* Organizza gli elementi in colonna */
+    justify-content: center; /* Centra verticalmente gli elementi */
+    align-items: center; /* Centra orizzontalmente gli elementi */
+
+
+    background-color: #f0f0f0; /* Colore di sfondo della pagina */
+    margin: 0;  /* Rimuove i margini di default */
+    padding: 0; /* Rimuove i padding di default */
+    height: 100vh;  /* Imposta l'altezza della pagina uguale alla viewport */
+    font-family: Arial, sans-serif; /* Imposta un font di base */
+    position: relative; /* Necessario per il posizionamento assoluto dell'immagine */
+}
+
+/* Titolo centrato in alto (abbassato ulteriormente) */
+h1 {
+    position: absolute;
+    top: 110px; /* Abbassa ulteriormente il titolo a 80px dalla parte superiore */
+    left: 50%; /* Centra il titolo orizzontalmente */
+    transform: translateX(-50%); /* Compensa il 50% della larghezza dell'elemento per centrarlo esattamente */
+    font-size: 3em; /* Imposta una dimensione grande per il titolo */
+    color: black; /* Colore nero per il titolo */
+}
+
+/* Stile per l'immagine (avvicinata al centro e ingrandita) */
+img {
+    position: absolute; /* Posiziona l'immagine in modo assoluto */
+    bottom: 40px; /* Sposta l'immagine più vicino al centro, alzandola a 40px dal fondo */
+    right: 30%; /* Sposta l'immagine più a sinistra, al 30% dalla parte destra della pagina */
+    width: 330px; /* Ingrandisce l'immagine a 350px (puoi cambiare questa dimensione) */
+    height: auto; /* Mantiene le proporzioni originali dell'immagine */
+}
+
+/* Paragrafo centrato verso il centro (con testo nero) */
+p {
+    position: absolute; /* Posiziona il paragrafo in modo assoluto */
+    left: 50%; /* Posiziona il paragrafo al centro orizzontalmente */
+    top: 50%; /* Posiziona il paragrafo verticalmente al centro */
+    transform: translate(-50%, -50%); /* Centra il paragrafo esattamente nel mezzo della pagina */
+    font-size: 1.5em; /* Imposta la dimensione del testo */
+    color: black; /* Colore nero per il testo */
+    max-width: 60%; /* Limita la larghezza del paragrafo per evitare che sia troppo largo */
+}
